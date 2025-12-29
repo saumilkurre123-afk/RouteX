@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RouteX | Premium Campus Experience</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;600;800&family=Syncopate:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="background-grid"></div>
+
+    <nav class="navbar">
+        <div class="logo">ROUTE<span class="logo-x">X</span></div>
+        
+        <div class="hamburger" id="hamburger">
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+
+        <ul class="nav-links" id="nav-links">
+            <li><a href="#home" class="nav-item">Home</a></li>
+            <li><a href="#map" class="nav-item">Navigation</a></li>
+            <li><a href="#departments" class="nav-item">Departments</a></li>
+            <li><a href="#timetable" class="nav-item">Schedule</a></li>
+            <li><a href="#ai-assistant" class="nav-item">AI Interface</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content reveal">
+            <div class="badge">AI-POWERED CAMPUS OS</div>
+            <h1>NAVIGATE.<br>THE FUTURE.</h1>
+            <p class="tagline">Experience Guru Ghasidas Vishwavidyalaya like never before.</p>
+            <a href="#timetable" class="cta-button">
+                <span class="btn-text">Find My Class</span>
+                <span class="btn-shine"></span>
+            </a>
+        </div>
+    </section>
+
+    <section id="map" class="section-container reveal">
+        <div class="section-header">
+            <h2>CAMPUS <span class="highlight">GRID</span></h2>
+            <p>Real-time satellite navigation.</p>
+        </div>
+        
+        <div class="map-frame-wrapper">
+            <div class="map-frame">
+                <iframe 
+                    width="100%" 
+                    height="500" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    src="https://maps.google.com/maps?q=Guru+Ghasidas+Vishwavidyalaya,+Bilaspur&t=&z=15&ie=UTF8&iwloc=&output=embed">
+                </iframe>
+            </div>
+            <div class="map-corner-accents"></div>
+        </div>
+    </section>
+
+    <section id="departments" class="section-container bg-dark reveal">
+        <div class="section-header">
+            <h2>ACADEMIC <span class="highlight">WINGS</span></h2>
+            <p>Select your destination.</p>
+        </div>
+
+        <div class="dept-grid">
+            <div class="dept-card cs-card">
+                <div class="card-overlay"></div>
+                <img src="cs.jpeg" class="dept-img" alt="CS">
+                <div class="dept-info">
+                    <h3>Computer Science</h3>
+                    <p class="loc-link"><a target="_blank" href="https://www.google.com/maps/search/Computer+Science+Department+Guru+Ghasidas+Vishwavidyalaya">IT Building (New) ↗</a></p>
+                    <a href="#timetable" class="dept-btn">View Schedule</a>
+                </div>
+            </div>
+
+            <div class="dept-card mech-card">
+                <div class="card-overlay"></div>
+                <img src="mech.jpeg" class="dept-img" alt="Mechanical">
+                <div class="dept-info">
+                    <h3>Mechanical</h3>
+                    <p class="loc-link"><a target="_blank" href="https://www.google.com/maps/search/Mechanical+Engineering+Department+Guru+Ghasidas+Vishwavidyalaya">Workshop Wing ↗</a></p>
+                    <a href="#timetable" class="dept-btn">View Schedule</a>
+                </div>
+            </div>
+
+            <div class="dept-card ee-card">
+                <div class="card-overlay"></div>
+                <img src="ee.jpeg" class="dept-img" alt="Electrical">
+                <div class="dept-info">
+                    <h3>Electrical</h3>
+                    <p class="loc-link"><a target="_blank" href="https://www.google.com/maps/search/Electrical+Engineering+Department+Guru+Ghasidas+Vishwavidyalaya">E-Complex ↗</a></p>
+                    <a href="#timetable" class="dept-btn">View Schedule</a>
+                </div>
+            </div>
+
+            <div class="dept-card">
+                <div class="card-overlay"></div>
+                <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&w=800&q=80" class="dept-img" alt="Civil">
+                <div class="dept-info">
+                    <h3>Civil Eng.</h3>
+                    <p class="loc-link"><a target="_blank" href="https://maps.google.com/?q=Guru+Ghasidas+Vishwavidyalaya5">New Tech Wing ↗</a></p>
+                    <a href="#timetable" class="dept-btn">View Schedule</a>
+                </div>
+            </div>
+
+            <div class="dept-card">
+                <div class="card-overlay"></div>
+                <img src="https://images.unsplash.com/photo-1587854692152-cbe660dbde88?auto=format&fit=crop&w=800&q=80" class="dept-img" alt="Pharmacy">
+                <div class="dept-info">
+                    <h3>Pharmacy</h3>
+                    <p class="loc-link"><a target="_blank" href="https://maps.google.com/?q=Guru+Ghasidas+Vishwavidyalaya6">Institute of Pharma ↗</a></p>
+                    <a href="#timetable" class="dept-btn">View Schedule</a>
+                </div>
+            </div>
+
+            <div class="dept-card">
+                <div class="card-overlay"></div>
+                <img src="https://images.unsplash.com/photo-1589829085413-56de8ae18c73?auto=format&fit=crop&w=800&q=80" class="dept-img" alt="Law">
+                <div class="dept-info">
+                    <h3>Law & Mgmt</h3>
+                    <p class="loc-link"><a target="_blank" href="https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2tSU2NYZzFOSEJUVVhsMFJ6ZDBaSE5NUlV4UFNtYxAB!2m1!1s0x3a280befca3a0d2f:0x580096dff518fe20">UTD Wing A ↗</a></p>
+                    <a href="#timetable" class="dept-btn">View Schedule</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="timetable" class="section-container reveal">
+        <div class="section-header">
+            <h2>LIVE <span class="highlight">TIMETABLE</span></h2>
+            <p>Sync with your academic timeline.</p>
+        </div>
+
+        <div class="glass-panel">
+            <div class="timetable-controls">
+                <div class="select-wrapper">
+                    <select id="dept-select">
+                        <option value="Computer Science">Computer Science</option>
+                        <option value="Mechanical Engineering">Mechanical Engineering</option>
+                        <option value="Electrical Engineering">Electrical Engineering</option>
+                        <option value="Civil Engineering">Civil Engineering</option>
+                        <option value="Pharmacy">Pharmacy</option>
+                        <option value="Law">Law</option>
+                    </select>
+                </div>
+
+                <div class="select-wrapper">
+                    <select id="day-select">
+                        <option value="Monday">Monday</option>
+                        <option value="Tuesday">Tuesday</option>
+                        <option value="Wednesday">Wednesday</option>
+                        <option value="Thursday">Thursday</option>
+                        <option value="Friday">Friday</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="table-wrapper">
+                <table class="schedule-table">
+                    <thead>
+                        <tr>
+                            <th>SUBJECT</th>
+                            <th>TIME</th>
+                            <th>ROOM</th>
+                        </tr>
+                    </thead>
+                    <tbody id="timetable-body">
+                        </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <section id="ai-assistant" class="section-container reveal">
+        <div class="section-header">
+            <h2>ROUTE<span class="highlight">X</span> INTELLIGENCE</h2>
+            <p>Ask anything. Anytime.</p>
+        </div>
+
+        <div class="chat-interface">
+            <div class="chat-header">
+                <div class="status-dot"></div>
+                <span>SYSTEM ONLINE</span>
+            </div>
+            <div class="chat-messages" id="chat-messages">
+                <div class="message bot">
+                    Hello. I am RouteX Intelligence. Ask me about locations or schedules.
+                </div>
+            </div>
+            <div class="chat-input-area">
+                <input type="text" id="chat-input" placeholder="Initiate query...">
+                <button id="send-btn">→</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="logo">ROUTE<span class="logo-x">X</span></div>
+            <p>© 2025 DESIGNED FOR GGV.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
